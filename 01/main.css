@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Besley', sans-serif;
+    background: #FAF5E4;
+}
+.navbar .logo {
+    margin-left: 30px;
+}
+
+.navbar .menu {
+    margin-right: 30px;
+}
+.navbar {
+    background: #FF6363;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #125B50;
+    padding: 5px 10px;
+}
+.navbar a:hover {
+    color: #F8B400;
+    background: #125B50;
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.header {
+    background: #F8B400;
+    padding: 25px 0;
+}
+.header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .content {
+    margin-left: 30px;
+}
+.header .image {
+    margin-right: 30px;
+    
+}
+.header .image img {
+    border-radius: 50%;
+}
+.main {
+    padding: 60px 0;
+}
+.main .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAF5E4;
+    text-align: center;
+    
+}
+
+.main .boxes .item {
+    padding: 30px 30px;
+}
+.main .boxes .item img {
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .header .container {
+        display: block;
+        text-align: center;
+        
+    }
+    .header .content {
+        margin: 10px 40px;
+    }
+    .header .image {
+        margin: 40px 0;
+    }
+    .main .boxes {
+        display: block;
+    }
+}
